@@ -1,0 +1,41 @@
+
+
+#insertion input {
+    background-color: white;
+    color: white;
+    height: auto;
+    display: block;
+    padding: 0px;
+    font-size: initial;
+    border : white;
+}
+
+/*#insertion input:hover{*/
+/*    border: 1px solid white!important;*/
+/*    color: white!important;*/
+/*}*/
+
+
+#insertion input[type=submit]{
+    color: black;
+    width: 200px;
+}
+
+#insertion input[type=text]{
+    color: black;
+    width: 100%;
+}
+
+#supprimer_article{
+    color: black;
+}
+
+.Ajout_produit{
+    margin-top: 5%;
+    padding-top: 5%  ;
+    padding-bottom: 2%;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

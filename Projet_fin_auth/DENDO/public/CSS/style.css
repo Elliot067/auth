@@ -1,0 +1,164 @@
+
+*{
+        font-family: 'Cabin', sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.register_background{
+    background-color: #373737 ;
+}
+
+
+header{
+  z-index: 4;
+}
+main {
+    height: auto;
+    width: 100%;
+
+}
+
+.carousel-item img {
+    height: auto;
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.carousel-control-prev {
+    height: 15%;
+    top: 30% !important;
+
+
+
+}
+
+.carousel-control-next {
+    height: 15%;
+    top: 30% !important;
+}
+
+.aaaa{
+    margin-bottom: 15%;
+    /* border: 3PX solid red; */
+   
+}
+.aaaa h1{
+    font-size: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 3px;
+    width: 55px;
+}
+
+/* ANIMATION TEXT JITENSHIA */
+
+
+/* 
+  body{ 
+    
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #131313;
+    color: #fff;
+    
+   
+  } */
+
+/* Slide 3 */
+
+.slide3_texte{
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+
+.home_conteneur{
+    display: flex;
+    justify-content: center;
+}
+
+.home_bouton{
+    padding: 17px 30px 17px 30px;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+  
+  .titre_animation{
+    animation: glitch 2s linear infinite;
+    letter-spacing: -6px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  .titre_animation:before,
+  .titre_animation:after{
+    content: attr(title);
+    position: absolute;
+    left: 10;
+  }
+  
+  .titre_animation:before{
+    animation: glitchTop 2s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg); 
+    }
+  }
+  
+  .titre_animation:after{
+    animation: glitchBotom 2.2s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+/* //// */

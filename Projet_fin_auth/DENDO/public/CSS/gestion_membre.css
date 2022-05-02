@@ -1,0 +1,37 @@
+.gestion_membres{
+    margin-top:5%;
+
+    background-color: grey;
+    color: white;}
+
+.Gestion_membre{
+    text-align: start;
+    color:#373737;
+    margin-left:100px;
+    font-size: 20px;
+}
+
+#insertion_membre{
+    background-color: grey;
+    color: white;
+}
+
+#insertion_membre input[type=submit]{
+    color: black;
+    width: 200px;
+
+}
+
+#insertion_membre input {
+    background-color: white;
+    color: white;
+    display: block;
+    font-size: initial;
+    border : white;
+}
+
+#Actualiser{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}

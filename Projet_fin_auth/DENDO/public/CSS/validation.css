@@ -1,0 +1,17 @@
+
+.vertical {
+    border-left: 4px solid black;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    left : 900px;
+    justify-content: right;
+}
+
+.couleur_validation{
+    background-color: lightgray;
+}
+
+.titre_validation{
+    font-family: Helvetica, sans-serif;
+}
